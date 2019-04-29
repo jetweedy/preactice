@@ -8,6 +8,7 @@ class App extends Component {
     heroes
   };
 
+
   shuffleCards = () => {
 	let heroes = this.state.heroes;
     let i = heroes.length,
@@ -23,6 +24,7 @@ class App extends Component {
   }
   
   clickCard = (id) => {	
+	console.log(this);
 	let score = this.state.score;
 	let heroes = this.state.heroes;
 	for (let i=0;i<heroes.length;i++) {
