@@ -1,6 +1,6 @@
 # preactice
 
-A practice app for learning React.
+Created as part of the process of tutoring someone for the UNC Boot Camp.
 
 ## Clicky Game
 
